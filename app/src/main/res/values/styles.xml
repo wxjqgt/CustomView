@@ -8,4 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <declare-styleable name="CouponView">
+        <attr name="smallCircleRadius" format="float|integer"/>
+        <attr name="smallCircleGra" format="float|integer"/>
+    </declare-styleable>
+
 </resources>
