@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context=".activity.MainActivity"
-    android:orientation="vertical"
-    >
+    tools:context=".activity.MainActivity">
 
-    <com.weibo.customviewdemo.view.CouponView
-        android:layout_width="200dp"
-        android:layout_height="80dp"
-        android:background="@color/colorAccent"
-        app:smallCircleGra="6"
-        app:smallCircleRadius="8"
-        android:id="@+id/coupon"
+    <com.weibo.customviewdemo.view.TabPageIndicator
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/indicator"
+        ></com.weibo.customviewdemo.view.TabPageIndicator>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager"
         >
 
-    </com.weibo.customviewdemo.view.CouponView>
+    </android.support.v4.view.ViewPager>
 
-</LinearLayout>
+</RelativeLayout>

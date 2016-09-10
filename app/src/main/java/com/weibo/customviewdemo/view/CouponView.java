@@ -42,6 +42,7 @@ public class CouponView extends LinearLayout {
             radius = typedArray.getInteger(R.styleable.CouponView_smallCircleRadius,10);
             gra = typedArray.getInteger(R.styleable.CouponView_smallCircleGra,8);
         }
+        typedArray.recycle();
     }
 
     public void setRadius(int radius) {

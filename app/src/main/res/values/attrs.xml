@@ -9,6 +9,11 @@
     <attr name="inCircleColor" format="color"></attr>
     <attr name="lineColor" format="color"></attr>
 
+    <declare-styleable name="IrregularImageView">
+        <attr name="ItemSpace" format="dimension"></attr>
+        <attr name="briefLength" format="dimension"></attr>
+    </declare-styleable>
+    
     //自定义控件的主题样式
     <declare-styleable name="MySportView">
         <attr name="titleSize"></attr>
@@ -32,6 +37,26 @@
     <declare-styleable name="QQHealthView">
         <attr name="titleColor"></attr>
         <attr name="lineColor"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CouponView">
+        <attr name="smallCircleRadius" format="float|integer"/>
+        <attr name="smallCircleGra" format="float|integer"/>
+    </declare-styleable>
+
+    <!--TabIndicator的参数设置-->
+    <declare-styleable name="TabPageIndicator">
+        <attr name="indicatorColor" format="color" />
+        <attr name="underlineColor" format="color" />
+        <attr name="dividerColor" format="color" />
+        <attr name="indicatorHeight" format="dimension" />
+        <attr name="underlineHeight" format="dimension" />
+        <attr name="pst_dividerPadding" format="dimension" />
+        <attr name="tabPaddingLeftRight" format="dimension" />
+        <attr name="scrollOffset" format="dimension" />
+        <attr name="tabBackgrounds" format="reference" />
+        <attr name="sameLine" format="boolean" />
+        <attr name="pst_textAllCaps" format="boolean" />
     </declare-styleable>
 
 

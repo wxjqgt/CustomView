@@ -15,6 +15,7 @@ import android.graphics.Xfermode;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
+import android.util.TypedValue;
 import android.widget.ImageView;
 
 import com.weibo.customviewdemo.R;
